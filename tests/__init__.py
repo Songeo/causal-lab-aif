@@ -1,0 +1,1 @@
+"""Enterprise Assitant tests init."""
