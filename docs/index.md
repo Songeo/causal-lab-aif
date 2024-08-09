@@ -6,7 +6,7 @@
 
 Version: v0.1.0
 
-## Developers
+## Causal Lab AIF Team
 
 - Miduel Daygoro Grados Fukuda
 - Sonia Georgina Mendizabal Claustro
@@ -18,6 +18,8 @@ Version: v0.1.0
 - Alejandro Aguayo-Ortiz
 
 ## Description
+
+<Description>
 
 ## Project requirements
 

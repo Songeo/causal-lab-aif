@@ -30,7 +30,7 @@ theme:
         - content.code.copy
     icon:
       logo: material/book-open-page-variant
-      repo: fontawesome/brands/bitbucket
+      repo: fontawesome/brands/github
       alternate: fontawesome/solid/earth-europe
 
 site_dir: site
