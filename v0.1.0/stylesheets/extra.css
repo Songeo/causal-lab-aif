@@ -1,0 +1,54 @@
+[data-md-color-scheme="bbva"] {
+    --md-primary-fg-color: #1973B8;
+    --md-primary-fg-color--light: #2DCCCD;
+    --md-primary-fg-color--dark: #072146;
+    --md-accent-fg-color: #48AE64;
+}
+.md-grid {
+  max-width: 1440px;
+}
+.md-content div{
+  overflow-x: auto;
+}
+.columntuto {
+  padding: 1rem;
+  text-align:center;
+  display:block;
+}
+.subtitletuto {
+    border-radius: 15px;
+    background: #f7f7f7;
+    padding: 10px;
+}
+[data-md-color-scheme="slate"] .subtitletuto {
+    border-radius: 15px;
+    background: #4051b5;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.rowtuto {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.imagetuto {
+   display: inline !important;
+}
+[data-md-color-scheme="bbva"] .md-typeset h1 {
+    color: var(--md-primary-fg-color--dark);
+}
+[data-md-color-scheme="bbva"] .md-typeset h2 {
+    color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="bbva"] .md-typeset h3 {
+    color: var(--md-primary-fg-color--light);
+}
+[data-md-color-scheme="bbva"] .md-typeset h4 {
+    color: var(--md-accent-fg-color);
+}
+[data-md-color-scheme="bbva"] .md-typeset h5 {
+    color: #DA3851;
+    font-size: 1.1rem;
+    text-transform: none;
+}
