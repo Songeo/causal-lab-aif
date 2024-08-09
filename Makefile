@@ -83,13 +83,13 @@ doc-deploy: start-message
 	@echo "\033[0;35m##################\033[0m"
 ifdef version
 	@echo "Deploying documentation for version ${version}"
-	@poetry run mike deploy v${version}
+	@poetry run mike deploy v${version} -b gh-pages --push
 	@poetry run mike set-default v${version}
 	@echo ""
 else
 	@version=$(shell cat pyproject.toml | awk '/^version =/{print $$3}' | xargs); \
 	echo "Deploying documentation for version $$version"; \
-	poetry run mike deploy v$$version; \
+	poetry run mike deploy v$$version -b gh-pages --push --allow-empty; \
 	poetry run mike set-default v$$version && echo "\033[0;32mDocumentation deployed successfully.\033[0m" || echo "\033[0;31mAn error has ocurred while deploying documentation\033[0m"
 	@echo ""
 endif

@@ -8,7 +8,7 @@ Version: v0.1.0
 
 ## Causal Lab AIF Team
 
-- Miduel Daygoro Grados Fukuda
+- Miguel Daygoro Grados Fukuda
 - Sonia Georgina Mendizabal Claustro
 - Arturo Soberon Cedillo
 - Ashutosh Dadhich
@@ -24,7 +24,7 @@ Version: v0.1.0
 ## Project requirements
 
 - [ ] Tests
-    - [ ] [Code coverage (0%)](coverage/index.html)
+    - [ ] Code coverage
     - [ ] Unit tests
     - [ ] Feature tests
     - [ ] Integration tests

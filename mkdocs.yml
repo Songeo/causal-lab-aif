@@ -56,7 +56,7 @@ extra:
             make our documentation better.
     social:
         - icon: fontawesome/regular/envelope
-          link: https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=uriel.martinez@bbva.com
+          link: https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=migueldaygoro.grados@bbva.com
           name: Contact us on Gmail!
     version:
         provider: mike
