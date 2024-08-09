@@ -89,7 +89,7 @@ ifdef version
 else
 	@version=$(shell cat pyproject.toml | awk '/^version =/{print $$3}' | xargs); \
 	echo "Deploying documentation for version $$version"; \
-	poetry run mike deploy v$$version -b gh-pages --push --allow-empty; \
+	poetry run mike deploy v$$version -b gh-pages --allow-empty --push; \
 	poetry run mike set-default v$$version && echo "\033[0;32mDocumentation deployed successfully.\033[0m" || echo "\033[0;31mAn error has ocurred while deploying documentation\033[0m"
 	@echo ""
 endif
