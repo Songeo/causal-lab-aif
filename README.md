@@ -24,7 +24,7 @@ $ poetry shell
 ```
 or by running:
 ```bash
-$ poetry shell
+$ make
 ```
 in order to install all dependencies and setup environment.
 
