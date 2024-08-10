@@ -5,7 +5,7 @@
 
 ## Causal Lab AIF Team
 
-- Miduel Daygoro Grados Fukuda
+- Miguel Daygoro Grados Fukuda
 - Sonia Georgina Mendizabal Claustro
 - Arturo Soberon Cedillo
 - Ashutosh Dadhich
