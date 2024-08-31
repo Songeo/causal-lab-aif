@@ -1,0 +1,108 @@
+default_language_version:
+    python: python3.10
+repos:
+  - repo: local
+    hooks:
+      - id: trailing-whitespace
+        name: Remove whitespaces
+        entry: trailing-whitespace-fixer
+        language: system
+        types: [text]
+      - id: end-of-file-fixer
+        name: Fix end of file
+        entry: end-of-file-fixer
+        language: system
+        types: [text]
+      - id: debug-statements
+        name: Debug statements
+        entry: debug-statement-hook
+        language: system
+        types: [python]
+      - id: check-merge-conflict
+        name: Check merge conflicts
+        entry: check-merge-conflict
+        language: system
+        types: [python]
+      - id: name-tests-test
+        name: Tests files pattern must be test.*\.py
+        entry: name-tests-test
+        language: system
+        files: ^tests/
+        types: [python]
+        args: ['--django']
+      - id: flake8
+        name: Check Python standard styles with Flake8
+        entry: flake8
+        language: python
+        types: [python]
+        additional_dependencies: [
+            flake8-isort,
+            flake8-docstrings,
+            flake8-print,
+            flake8-typing-imports
+        ]
+        args: [--max-line-length=88, '--ignore=D400, D401, E203, I003, W503, I004']
+      - id: ruff
+        name: Files reformatting with Ruff
+        entry: ruff check
+        language: system
+        types: [python]
+        args: ['--fix', '--exit-non-zero-on-fix']
+      - id: black
+        name: Files reformatting with Black
+        entry: black
+        language: system
+        types: [python]
+      - id: bandit
+        name: Checking security issues with Bandit
+        entry: bandit
+        language: system
+        types: [python]
+        args: ["-c", "pyproject.toml"]
+      - id: mypy
+        name: Check typing with MyPy
+        entry: mypy
+        language: system
+        types: [python]
+        args: [--disallow-untyped-defs, --disallow-incomplete-defs]
+        exclude: '.*__init__\.py'
+      - id: isort
+        name: Check imports order with Isort
+        entry: isort
+        language: python
+        types: [python]
+        additional_dependencies: [toml]
+      - id: jupyter-nb-clear-output
+        name: Clear outputs in Jupyter Notebook
+        files: \.ipynb$
+        language: system
+        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+      - id: nbqa-flake8
+        name: Check Jupyter Notebook standard styles with Flake8
+        files: \.ipynb$
+        language: system
+        entry: nbqa flake8
+        args: ["--ignore=D400,D401,E203,I003,W503,I004,T201,D100,E501"]
+      - id: nbqa-ruff
+        name: Jupyter Notebook reformatting with Ruff
+        files: \.ipynb$
+        language: system
+        entry: nbqa ruff
+        args: ["--line-length=120", "--ignore=T201,D100,E501", "--fix"]
+      - id: nbqa-black
+        name: Jupyter Notebook reformatting with Black
+        files: \.ipynb$
+        language: system
+        entry: nbqa black
+      - id: nbqa-isort
+        name: Check Jupyter Notebook imports order with Isort
+        files: \.ipynb$
+        language: system
+        entry: nbqa isort
+      - id: nbqa-mypy
+        name: Check Jupyter Notebook typing with MyPy
+        files: \.ipynb$
+        language: system
+        entry: nbqa mypy
+        args: [--disallow-untyped-defs, --disallow-incomplete-defs]
+        exclude: '.*__init__\.py'
