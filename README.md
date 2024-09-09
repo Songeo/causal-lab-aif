@@ -16,6 +16,12 @@
 
 ---
 
+## Contents
+
+To see the Causal Analysis Lab topics, go to the [contents](CONTENTS.md)
+
+---
+
 ## Init Poetry environment
 
 Activate Poetry virtual environment by running:
