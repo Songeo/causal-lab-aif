@@ -2,7 +2,6 @@
 
 - Thursdays 16h15 - 17h30
 
-
 * * *
 
 ### **PLAN OF TALKS**
@@ -15,7 +14,7 @@ P. Lagunes, A. Aguayo
 - 19.09.2024: **[Experimentation]()** S. Mendizabal, A. Soberon
 
 #### **PART II: Case study**
- - 03.10.2024: **[Matching tecniques]()**
+- 03.10.2024: **[Matching tecniques]()**
 Suggested readings: Chapter Potential Outcomes Causal Model in [Cu],
 - 17.10.2024: **[Case study analysis]()**
 Suggested readings: Chapter 5 in [Fa], Chapter Matching and Subclassification in [Cu]
@@ -26,11 +25,11 @@ Suggested readings:
 
 ### **References**
 
-**[CFP]** Cinelli, C., Forney, A., & Pearl, J. (2022). *A crash course in good and bad controls*. Sociological Methods & Research, 00491241221099552.
-**[Cu]** Cunningham, S. (2021). *Causal inference: The mixtape*. Yale university press.
-**[Fa]** Facure, M. (2023). *Causal Inference in Python*. " O'Reilly Media, Inc.".
-**[HK]** Huntington-Klein, N. (2021). *The effect: An introduction to research design and causality*. Chapman and Hall/CRC.
-**[Hu]** Huber, M. (2023). *Causal analysis: Impact evaluation and Causal Machine Learning with applications in R*. MIT Press.
+- **[CFP]** Cinelli, C., Forney, A., & Pearl, J. (2022). *A crash course in good and bad controls*. Sociological Methods & Research, 00491241221099552.
+- **[Cu]** Cunningham, S. (2021). *Causal inference: The mixtape*. Yale university press.
+- **[Fa]** Facure, M. (2023). *Causal Inference in Python*. " O'Reilly Media, Inc.".
+- **[HK]** Huntington-Klein, N. (2021). *The effect: An introduction to research design and causality*. Chapman and Hall/CRC.
+- **[Hu]** Huber, M. (2023). *Causal analysis: Impact evaluation and Causal Machine Learning with applications in R*. MIT Press.
 
 * * *
 
