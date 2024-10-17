@@ -2,7 +2,6 @@
 
 - Thursdays 16h15 - 17h30
 
-
 * * *
 
 ### **PLAN OF TALKS**
@@ -15,6 +14,7 @@ P. Lagunes, A. Aguayo
 - 19.09.2024: **[Experimentation](https://docs.google.com/presentation/d/1z8FfE8RL7EJ_ytbedkQezFKCk2K6OX4-6MmBCHHF29g/edit?usp=drive_link)**
 S. Mendizabal, A. Soberon
 
+<<<<<<< HEAD
 #### **PART II: Application**
 - 03.10.2024: **[Selection on observables](https://drive.google.com/file/d/1WsWVjzgRpbqJKlWyYUsrFfdQ9gBZ3nYN/view?usp=drive_link)**
 M. Grados
@@ -31,16 +31,25 @@ A. Aguayo
 
 #### **PART IV: Causal discovery**
 - XX.XX.2025: **[]()**
+=======
+#### **PART II: Case study**
+- 03.10.2024: **[Matching tecniques]()**
+Suggested readings: Chapter Potential Outcomes Causal Model in [Cu],
+- 17.10.2024: **[Case study analysis]()**
+Suggested readings: Chapter 5 in [Fa], Chapter Matching and Subclassification in [Cu]
+- 31.10.2024: **[Examples | Replica | Hands on]()**
+Suggested readings:
+>>>>>>> d972acdcb20159c3535f55824e9e57e99b4d960b
 
 * * *
 
 ### **References**
 
-**[CFP]** Cinelli, C., Forney, A., & Pearl, J. (2022). *A crash course in good and bad controls*. Sociological Methods & Research, 00491241221099552.
-**[Cu]** Cunningham, S. (2021). *Causal inference: The mixtape*. Yale university press.
-**[Fa]** Facure, M. (2023). *Causal Inference in Python*. " O'Reilly Media, Inc.".
-**[HK]** Huntington-Klein, N. (2021). *The effect: An introduction to research design and causality*. Chapman and Hall/CRC.
-**[Hu]** Huber, M. (2023). *Causal analysis: Impact evaluation and Causal Machine Learning with applications in R*. MIT Press.
+- **[CFP]** Cinelli, C., Forney, A., & Pearl, J. (2022). *A crash course in good and bad controls*. Sociological Methods & Research, 00491241221099552.
+- **[Cu]** Cunningham, S. (2021). *Causal inference: The mixtape*. Yale university press.
+- **[Fa]** Facure, M. (2023). *Causal Inference in Python*. " O'Reilly Media, Inc.".
+- **[HK]** Huntington-Klein, N. (2021). *The effect: An introduction to research design and causality*. Chapman and Hall/CRC.
+- **[Hu]** Huber, M. (2023). *Causal analysis: Impact evaluation and Causal Machine Learning with applications in R*. MIT Press.
 
 * * *
 
