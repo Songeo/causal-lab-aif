@@ -20,7 +20,7 @@ M. Grados
 - 17.10.2024: **[Case study: Lalonde]()**
 All members
 - 31.10.2024: **[TBD]()**
-- 14.11.2024: **[Difference-in-idifferences]()**
+- 14.11.2024: **[Difference-in-differences]()**
 A. Aguayo
 - 28.11.2024: **[Synthetic control]()**
 - XX.XX.2024: **[Examples | Replica | Hands on]()**

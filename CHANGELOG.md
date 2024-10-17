@@ -1,6 +1,7 @@
 ## Unreleased
 
 
+- fix(CONTENTS.md): Se arregló error en CONTENTS.md
 - Merge branch 'main' of github.com:Songeo/causal-lab-aif
 - Update CONTENTS.md
 - docs(CONTENTS.md):
