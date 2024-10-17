@@ -1,6 +1,7 @@
 ## Unreleased
 
 
+- notebook(RData-path): Se cambio el path al archivo lalonde.RData
 - feat(notebooks): Se agregaron notebooks de lalonde
 - fix(CONTENTS.md): Cambio menor
 - fix(CONTENTS.md): Se arregló error en CONTENTS.md
