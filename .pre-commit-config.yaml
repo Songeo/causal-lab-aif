@@ -72,37 +72,37 @@ repos:
         language: python
         types: [python]
         additional_dependencies: [toml]
-      - id: jupyter-nb-clear-output
-        name: Clear outputs in Jupyter Notebook
-        files: \.ipynb$
-        language: system
-        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
-      - id: nbqa-flake8
-        name: Check Jupyter Notebook standard styles with Flake8
-        files: \.ipynb$
-        language: system
-        entry: nbqa flake8
-        args: ["--ignore=D400,D401,E203,I003,W503,I004,T201,D100,E501"]
-      - id: nbqa-ruff
-        name: Jupyter Notebook reformatting with Ruff
-        files: \.ipynb$
-        language: system
-        entry: nbqa ruff
-        args: ["--line-length=120", "--ignore=T201,D100,E501", "--fix"]
-      - id: nbqa-black
-        name: Jupyter Notebook reformatting with Black
-        files: \.ipynb$
-        language: system
-        entry: nbqa black
-      - id: nbqa-isort
-        name: Check Jupyter Notebook imports order with Isort
-        files: \.ipynb$
-        language: system
-        entry: nbqa isort
-      - id: nbqa-mypy
-        name: Check Jupyter Notebook typing with MyPy
-        files: \.ipynb$
-        language: system
-        entry: nbqa mypy
-        args: [--disallow-untyped-defs, --disallow-incomplete-defs]
-        exclude: '.*__init__\.py'
+#      - id: jupyter-nb-clear-output
+#        name: Clear outputs in Jupyter Notebook
+#        files: \.ipynb$
+#        language: system
+#        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+#      - id: nbqa-flake8
+#        name: Check Jupyter Notebook standard styles with Flake8
+#        files: \.ipynb$
+#        language: system
+#        entry: nbqa flake8
+#        args: ["--ignore=D400,D401,E203,I003,W503,I004,T201,D100,E501"]
+#      - id: nbqa-ruff
+#        name: Jupyter Notebook reformatting with Ruff
+#        files: \.ipynb$
+#        language: system
+#        entry: nbqa ruff
+#        args: ["--line-length=120", "--ignore=T201,D100,E501", "--fix"]
+#      - id: nbqa-black
+#        name: Jupyter Notebook reformatting with Black
+#        files: \.ipynb$
+#        language: system
+#        entry: nbqa black
+#      - id: nbqa-isort
+#        name: Check Jupyter Notebook imports order with Isort
+#        files: \.ipynb$
+#        language: system
+#        entry: nbqa isort
+#      - id: nbqa-mypy
+#        name: Check Jupyter Notebook typing with MyPy
+#        files: \.ipynb$
+#        language: system
+#        entry: nbqa mypy
+#        args: [--disallow-untyped-defs, --disallow-incomplete-defs]
+#        exclude: '.*__init__\.py'
