@@ -1,6 +1,7 @@
 ## Unreleased
 
 
+- style(notebooks/2-lalonde): Se cambió de lugar definición de función doubly-robust
 - feat(notebooks): Se agregó double-robust estimation.
 - notebook(RData-path): Se cambio el path al archivo lalonde.RData
 - feat(notebooks): Se agregaron notebooks de lalonde
