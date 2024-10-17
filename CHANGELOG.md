@@ -1,6 +1,7 @@
 ## Unreleased
 
 
+- docs(CONTENTS.md): Se agregó CONTENTS.md y se referenció en el README.md
 - Merge pull request #1 from Songeo/init/aaguayoo/repo-initialize-template
 - Causal Lab AIF repo init
 - Actualizar README.md

@@ -12,15 +12,25 @@
 G. García, A. Dadhich, D. Moreno
 - 05.09.2024: **[Potential outcomes framework](https://docs.google.com/presentation/d/1Mslyg8L5LznhVCWr\_6UT\_fZU32hekamQDcclLf7-Yzg/edit?usp=drive\_link)**
 P. Lagunes, A. Aguayo
-- 19.09.2024: **[Experimentation]()** S. Mendizabal, A. Soberon
+- 19.09.2024: **[Experimentation](https://docs.google.com/presentation/d/1z8FfE8RL7EJ_ytbedkQezFKCk2K6OX4-6MmBCHHF29g/edit?usp=drive_link)**
+S. Mendizabal, A. Soberon
 
-#### **PART II: Case study**
- - 03.10.2024: **[Matching tecniques]()**
-Suggested readings: Chapter Potential Outcomes Causal Model in [Cu],
-- 17.10.2024: **[Case study analysis]()**
-Suggested readings: Chapter 5 in [Fa], Chapter Matching and Subclassification in [Cu]
-- 31.10.2024: **[Examples | Replica | Hands on]()**
-Suggested readings:
+#### **PART II: Application**
+- 03.10.2024: **[Selection on observables](https://drive.google.com/file/d/1WsWVjzgRpbqJKlWyYUsrFfdQ9gBZ3nYN/view?usp=drive_link)**
+M. Grados
+- 17.10.2024: **[Case study: Lalonde]()**
+All members
+- 31.10.2024: **[TBD]()**
+- 14.11.2024: **[Difference-in-idifferences]()
+A. Aguayo
+- 28.11.2024: **[Synthetic control]()**
+- XX.XX.2024: **[Examples | Replica | Hands on]()**
+
+#### **PART III: Machine learning in causal analysis**
+- XX.XX.2025: **[]()**
+
+#### **PART IV: Causal discovery**
+- XX.XX.2025: **[]()**
 
 * * *
 
