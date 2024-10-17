@@ -1,6 +1,8 @@
 ## Unreleased
 
 
+- Merge branch 'main' of github.com:Songeo/causal-lab-aif
+- Update CONTENTS.md
 - docs(CONTENTS.md):
 - Se actualizó CONTENTS.md
 - docs(CONTENTS.md): Se agregó CONTENTS.md y se referenció en el README.md

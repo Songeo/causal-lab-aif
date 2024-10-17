@@ -14,14 +14,13 @@ P. Lagunes, A. Aguayo
 - 19.09.2024: **[Experimentation](https://docs.google.com/presentation/d/1z8FfE8RL7EJ_ytbedkQezFKCk2K6OX4-6MmBCHHF29g/edit?usp=drive_link)**
 S. Mendizabal, A. Soberon
 
-<<<<<<< HEAD
 #### **PART II: Application**
 - 03.10.2024: **[Selection on observables](https://drive.google.com/file/d/1WsWVjzgRpbqJKlWyYUsrFfdQ9gBZ3nYN/view?usp=drive_link)**
 M. Grados
 - 17.10.2024: **[Case study: Lalonde]()**
 All members
 - 31.10.2024: **[TBD]()**
-- 14.11.2024: **[Difference-in-idifferences]()
+- 14.11.2024: **[Difference-in-idifferences]()**
 A. Aguayo
 - 28.11.2024: **[Synthetic control]()**
 - XX.XX.2024: **[Examples | Replica | Hands on]()**
@@ -31,15 +30,6 @@ A. Aguayo
 
 #### **PART IV: Causal discovery**
 - XX.XX.2025: **[]()**
-=======
-#### **PART II: Case study**
-- 03.10.2024: **[Matching tecniques]()**
-Suggested readings: Chapter Potential Outcomes Causal Model in [Cu],
-- 17.10.2024: **[Case study analysis]()**
-Suggested readings: Chapter 5 in [Fa], Chapter Matching and Subclassification in [Cu]
-- 31.10.2024: **[Examples | Replica | Hands on]()**
-Suggested readings:
->>>>>>> d972acdcb20159c3535f55824e9e57e99b4d960b
 
 * * *
 
