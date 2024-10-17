@@ -8,6 +8,13 @@ packages = [{include = "causal_lab_aif"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
+pyreadr = "^0.5.2"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+xgboost = "^2.1.1"
+psmpy = "^0.3.13"
+statsmodels = "^0.14.4"
+scikit-learn = "^1.5.2"
 
 [tool.poetry.group.dev]
 optional = true
@@ -40,6 +47,7 @@ ruff = "^0.4.1"
 streamlit = "^1.35.0"
 toml = "^0.10.2"
 types-psutil = "^5.9.5.20240423"
+seaborn = "^0.13.2"
 
 [tool.poetry.group.doc]
 optional = true
